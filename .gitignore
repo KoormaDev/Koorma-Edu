@@ -133,3 +133,6 @@ apps/api/alembic/versions/*.pyc
 
 # Lock files (keep package-lock.json and pnpm-lock.yaml)
 yarn.lock
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat

@@ -521,7 +521,8 @@ function ChatContent() {
 
       const data = await apiClient.post('/chat/quick-chat', {
         content: queryToSend,
-        course_id: courseId
+        course_id: courseId,
+        language: language
       });
 
       // Debug logging to track source issues
